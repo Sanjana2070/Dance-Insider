@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/first"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-70dp"
+        android:background="@drawable/card">
+<!--        add recycler view           -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/header"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/posttextdark">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="-9dp"
+            android:paddingTop="100dp">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </RelativeLayout>
+
+
+
+    <!--    Header      -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/group"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fitsSystemWindows="false"
+        >
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/viewMuseum"
+            android:text="@string/viewMuseum"
+            android:background="#4ebdef"
+            android:textSize="13sp"
+            android:textColor="#241332"
+            android:layout_alignParentEnd="true"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/faceFilter"
+            android:text="@string/faceFilter"
+            android:background="#4ebdef"
+            android:textSize="13sp"
+            android:textColor="#241332"
+            android:layout_alignParentStart="true"/>
+
+    </RelativeLayout>
+
+
+<!--    Footer      -->
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/group"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fitsSystemWindows="false">
+        <TextView
+            android:id="@+id/footer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="@string/footer_msg"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

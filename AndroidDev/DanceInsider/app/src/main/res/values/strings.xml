@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Concretepage</string>
+    <string name="footer_msg">Made by Team Zfighters</string>
+    <string name="header_msg">DanceInsider</string>
+    <string name="body_msg"> Body Message </string>
+    <string name="event_name1">Competition</string>
+    <string name="viewMuseum">View Dance Museum</string>
+    <string name="faceFilter">Filters On Instagram</string>
+</resources>
