@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5438900029218683827
+  m_GuidHigh: 11338665651040755373
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5332104792803380197
+      m_GuidHigh: 185310804734996668
+    m_SerializedTextureGuid:
+      m_GuidLow: 3045804918016700000
+      m_GuidHigh: 12263723139385508072
+    m_Size: {x: 0.15, y: 0.065}
+    m_SpecifySize: 1
+    m_Name: Bharatanatyam
+    m_Texture: {fileID: 2800000, guid: 2cf0927415e1f2243b724ea0a1d6487e, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4688767676970561261
+      m_GuidHigh: 9713720137873368247
+    m_SerializedTextureGuid:
+      m_GuidLow: 16430241910255274575
+      m_GuidHigh: 3143750354108030859
+    m_Size: {x: 0.15, y: 0.065}
+    m_SpecifySize: 1
+    m_Name: Kathak
+    m_Texture: {fileID: 2800000, guid: b2d391d8b8ceca74388f78fb4feb84be, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5602505921028117032
+      m_GuidHigh: 208412801924047543
+    m_SerializedTextureGuid:
+      m_GuidLow: 288924497207985411
+      m_GuidHigh: 4143232447317295274
+    m_Size: {x: 0.15, y: 0.065}
+    m_SpecifySize: 1
+    m_Name: Kathakali
+    m_Texture: {fileID: 2800000, guid: 5e562f572e5c1054892d7a8384441d49, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5523040842059601720
+      m_GuidHigh: 13199706227106231687
+    m_SerializedTextureGuid:
+      m_GuidLow: 6869226751364759815
+      m_GuidHigh: 7864425432829324744
+    m_Size: {x: 0.15, y: 0.065}
+    m_SpecifySize: 1
+    m_Name: Kuchipudi
+    m_Texture: {fileID: 2800000, guid: 1850b87517d3fe644a9176d2181b2405, type: 3}
