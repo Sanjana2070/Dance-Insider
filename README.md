@@ -13,4 +13,8 @@ There was an issue with that as well. The video wasn't rendering.
 The second one is for the Dance Museum so that people are aware of the different dance forms. (For this, EchoAR console and Unity were used)
 
 
+Future scope:
+Completing the application, giving authentication, adding payment functionality, etc. 
+
+
 
